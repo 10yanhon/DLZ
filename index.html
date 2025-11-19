@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Neutral Shop — 首页</title>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header class="header"><div class="container wrap"><div class="logo">Neutral Shop</div><nav class="nav"><a href="/index.html">首页</a><a href="/products.html">全部商品</a><a href="/cart.html">购物车(<span id="cart-count">0</span>)</a></nav></div></header>
+<main class="container">
+  <section class="hero"><h1>优质产品 · 直接购买</h1><p>主流电商配色（中性蓝），响应式布局，交互动效。</p></section>
+  <div class="grid">
+    <section>
+      <h2>热门商品 <span id="productCount" style="font-weight:400;color:var(--muted)"></span></h2>
+      <div id="productList" class="products"></div>
+    </section>
+    <aside class="aside-card">
+      <h3>购物车预览</h3>
+      <div id="miniCart">购物车为空</div>
+      <div style="margin-top:12px"><a class="btn" href="/cart.html">查看购物车</a></div>
+    </aside>
+  </div>
+</main>
+<footer class="footer">© 2025 Neutral Shop</footer>
+<script src="/js/app.js"></script>
+</body>
+</html>
